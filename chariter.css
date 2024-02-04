@@ -1,70 +1,89 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .nav{
-    height: 20px;
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(226, 4, 4);
     color: white;
-    
+    padding: 1rem;
+    width: 100%;
+    font-family: sans-serif;
 }
-.num{
+.icn{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
 
-    margin-left: 150px;
-  
-}
 .nav2{
-    height: 60px;
+    
     display:flex ;
+    justify-content: space-around;
     background-color: white;
+    padding: 1rem;
+     align-items: center; 
+     width: 100%;
 }
 .donn{
     display: flex;
-    flex-direction: inline;
-    margin-left: 600px;
-    font-weight: 700;
-    margin-top: 20px;
+    gap: 0.6rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    
 }
 .nate{
     background-color: rgb(175, 13, 13);
     color: white;
-    height: 40px;
+    border: 1px solid transparent;
     border-radius: 40px;
-    width: 150px;
-    padding: 10px;
+    font-family:  'Arial Narrow Bold', sans-serif ;
+    padding: 0.5rem;
+    font-weight: 500;
+    word-spacing: 1px;
+    font-size: 1rem;
 }
 .sym{
-    margin-left: 150px;
+    
     font-size: 20px;
     font-weight: bold;
-    margin-top: 20px;
+    
 }
 .wrt{
-    margin: 200px;
+    
     color: white;
     font-weight:bolder;
-    font-size:40px ;
+    font-size:4rem ;
+    
 }
-body{
+.display{
     background-image: url(larm-rmah-AEaTUnvneik-unsplash.jpg);
     background-size:cover;
-   
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
 }
 .cas{
-    height: 50px;
-    border-radius: 40px;
-    width: 150px;
-    font-size: 15px;
+    
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
     background-color: red;
     color: white;
-    margin-left: 450px;
-    padding: 12px;
+    width: 8rem;
+    padding: 1rem;
 }
-.spc{
-    margin-right: 10px;
-}
-.icn{
-    margin-left: 1100px;
-   
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    height: 70vh;
+    gap: 1rem;
 }
